@@ -1,0 +1,18 @@
+=== Module Android
+
+==== Descriptions
+Ce module permet la création de l'application avec laquelle sera en contact l'utilisateur.
+Elle a pour but d'afficher la carte, de lire des QR codes, de communiquer avec le serveur en collaboration avec le module éponymes.
+En outre, elle doit pouvoir lire le fichier de squelette retourné par le module Traitement d'Images afin de connaître les déplacements possibles de l'utilisateurs.
+Elle doit enfin calculer le plus court chemin entre deux points de la carte, et l'afficher sur celle-ci.
+
+==== Avancement
+L'application permet de faire ce qui a été évoqué mais est d'aspect brouillon. La lecture et l'écriture de fichiers a été une opération délicate à mettre en place.
+Les QR codes peuvent être lus, la connection avec le serveur est établie et permet de récupérer les fichiers (grâce au concours du module Serveur), les différentes classes peuvent alors être instanciées. Enfin, le trajet d'affiche sur la carte. Nous rencontrons néanmoins un problème à ce niveau là que nous compensons tant bien que mal : une image au dimension 100x100 px est convertie en une image de taille différente lorsqu'on l'assigne à un objet Drawable. Cela nous conduit à devoir anticiper la taille en question pour mettre à l'échelle le trajet que nous dessinons.
+
+
+==== Bibliographie spécifique
+
+* Pour la classe PhotoView, permettant de zoomer/déplacer avec les gestes désormais intuitifs : https://github.com/chrisbanes/PhotoView
+* Pour tout l'apprentissage d'Android Studio : https://developer.android.com/index.html
+

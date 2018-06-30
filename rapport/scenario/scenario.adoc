@@ -1,0 +1,13 @@
+=== Scénarios d’usage
+
+Yves P., soucieux de l’image de son école, souhaite faciliter le repérage des élèves qui y passent leurs oraux. C’est là qu’entre en jeu Télécom map’iTech.
+
+Cette application développée par des étudiants de Télécom ParisTech a pour but de faciliter autant que possible la localisation et la recherche d'un lieu au sein d'un bâtiment ou d'un complexe. Elle est également facile à configurer, et tout propriétaire peut, en quelques minutes, ajouter son bâtiment à la base de données et ainsi permettre aux nouveaux arrivants d'utiliser l'application.
+
+Yves P. n'a donc qu'à télécharger les plans du bâtiment d’une manière simple. L'application permet ensuite la localisation dans le-dit bâtiment à l’aide de balises qui y auront été placées de manière régulière. Un système de vérification permet de s'assurer que le plan a bien été communiqué par une personne habilitée et non par un plaisantin. Il est ensuite possible, pour lui ou toute autre personne habilitée, de rajouter des lieus comme l'emplacement d'une exposition temporaire ou d'un distributeur d'eau.
+
+Romain G., stressé par ses oraux souhaite trouver le RAB avant son examen de français. Heureusement, en entrant dans le bâtiment, il reçoit une notification. Il sort son téléphone, et y trouve avec plaisir le message « Le bâtiment dans lequel vous venez d'entrer est équipé de Télécom map'iTech ! N'hésitez pas à lancer l'application si vous êtes perdu. »
+
+Romain s'exécute, et repère la balise la plus proche de lui. Son téléphone se charge du reste. Le bon chemin est indiqué sur son écran. Si Romain se déplace en fauteuil roulant, l’itinéraire sera adapté. Si le bâtiment B est en feu, Romain pourra tranquillement se rendre à son oral en évitant la zone dangereuse. En effet, différentes contraintes sont prises en considération afin de toujours proposer le meilleur itinéraire.
+
+En effet, l'application dispose d'une page contraintes. L'utilisateur peut préciser s'il a une mobilité réduite, s'il souhaite éviter un endroit ou encore s'il doit passer par un autre. S'il souhaite retrouver un autre utilisateur de l'application, il peut envoyer une requête pour avoir accès à sa position temporairement. De leur côté, les personnes habilitées peuvent rajouter des contraintes comme l'emplacement de travaux, des portes bloquées, ou même d'un incendie. 

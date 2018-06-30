@@ -1,0 +1,27 @@
+=== Fiche d’identité du groupe (PAN1)
+
+*_Consigne de rédaction : 1 page max rédiger collectivement un texte
+permettant de définir votre groupe et les personnalités qui le
+composent. Un bref descriptif individuel peut suivre (optionnel) la
+description collective. Vous mettrez en deuxième page la cartographie de
+groupe effectuée en tout début de PACT._*
+
+==== Présentation du groupe
+
+Le groupe est composé de personnalités créatives, positivement hétérogène puisque les individualités de chacuns s'expriment et apportent des éléments de réflexions nouveaux qui permettent d'avancer dans PACT. Il n'est pas rare de rencontrer une divergence sur certains aspects, mais les conflits de points de vue se règlent toujours à l'amiable. La sélection du projet s'est faite dans de très bonnes conditions, et n'a semblé lésé personne. 
+La division en modules a permis à chacun de choisir un domaine dans lequel il était à l'aise, ce qui est un point fondamental pour l'épanouissement du groupe dans le projet.
+L'entraide est présente dans le groupe, et les asymétries entre langues et background culturels ne sont pas des barrières mais agrémentent au contraire nos réflexions pour donner vie à de nouvelles idées et fonctionnalités. 
+
+
+
+Ceci est notre logo :
+
+image:../images/mapitech.png[logo telecom mapitech]
+
+<<<
+
+==== Présentation élaboré lors de la première séance
+
+Nous sommes un groupe d’étudiants particulièrement motivés pour l’élaboration de ce projet puisque nous escomptons y incorporer des éléments qui font nos passions. Nous avons pu observer une forte appétence de plusieurs d’entre nous pour les domaines de l’art, que ce soit la musique, la littérature, ou le cinéma. Nous aimons également le jeu vidéo, que ce soit dans sa pratique ou dans sa conception. A cela peut s’ajouter une dimension sportive très marquée chez certains d’entre nous, qui peut sans problème s’intégrer aux aspects vidéoludique et artistique.
+
+Pour mettre en oeuvre ce projet, nous comptons sur nos compétences en informatique, dans des langages scolaires, mais également dans d’autres qui seront à découvrir ; ainsi que sur notre maîtrise des langues et de nos notions mathématiques.

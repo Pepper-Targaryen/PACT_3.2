@@ -1,0 +1,40 @@
+=== Diagramme d’avancement des tâches (PAN2+)
+
+*Mettre à jour le* Tableau *à chaque PAN*
+
+Vous devez y résumer l’avancement de vos modules.
+
+L’avancement est mesuré par rapport à l’ensemble du travail à effectuer.
+L’avancement prévu correspond à l’avancement prévu au PANx, tel que
+renseigné dans votre diagramme temporel. L’avancement réel est ce que
+vous avez réellement atteint.
+
+Vous préciserez également le temps passé sur le module, afin d’apprendre
+à évaluer la durée des tâches.
+
+La description du travail effectué est brève mais vous devez absolument
+rencontrer votre expert (encadrant de module) pour qu’il détaille ses
+attentes en termes de rendus dans la fiche module qu’il vous remettra.
+Avant chaque PAN vous devrez le rencontrer pour récupérer une
+appréciation de votre travail.
+
+Lorsque vous estimerez votre module terminé, vous demanderez une
+soutenance afin d’être évalué et d’obtenir une note de module. La
+soutenance s’effectue devant au moins deux enseignants.
+
+[width="100%",cols="8%,9%,9%,7%,67%",options="header",]
+|=======================================================================
+|Module |Avancement Prévu (%) |Avancement Réel (%) |Temps passé (h)
+|Description brève du travail effectué, analyse des écarts constatés
+
+
+| Traitement d'images | 80% | 75% | 30h | Après de grandes difficultés au début, nous avons réussi à établir un prototype qui marche sur des plans très simples. Il faut encore généraliser à des plans plus compliqués et vérifier avec d'autres exemples.
+
+| Android | 80% | 70% | 30h | Le design est en place, il est possible de dessiner un itinéraire et  de zoomer sur un plan. De même, l'application peut lire des qr codes.
+
+| Serveur | 80% | 70% | 30h| Nous pouvons upload et download des fichiers, l'application web est partiellement en place.
+
+| SES | 100%|100% | 15h| Fini, les entretiens ont révélés la vision des potentiels utilisateurs et nous permettent de déterminer les emplacements optimaux pour les balises.
+
+| Test et intégration | 50% |50% |10h | Un prototype est en place mais de nombreuses fonctionnalités restent à implémenter.
+|=======================================================================

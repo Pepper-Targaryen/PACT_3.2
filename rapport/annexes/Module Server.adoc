@@ -1,0 +1,16 @@
+=== Module Server
+
+==== Descriptions
+
+L'objectif de ce module est de délivrer les fichiers nécessaires à un client android voulant utiliser notre application. Il est composé de deux grandes parties:
+un site web permettant aux propriétaires de bâtiments de se créer des comptes, afin d'ajouter et de modifier des plans (afin qu'ils soient traités ultérieurement, par le module traitement d'images)
+, et une partie permettant à l'application android de télécharger le fichier nécessaire pour son fonctionnement.
+Le code du site est disponible dans le dossier website.
+
+==== Avancement
+La programmation du site en PHP est presque terminée. L'applet est prête et est sur le site. Elle permet à l'administrateur d'uploader ses plans, de les modifier et de les rendre accessibles aux clients.
+
+
+==== Bibliographie spécifique
+
+

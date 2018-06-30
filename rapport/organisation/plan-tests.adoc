@@ -1,0 +1,23 @@
+=== Plans de test (PAN2+)
+
+* Pour la cohérence entre Android et Serveur, nous vérifions que le
+serveur est bien capable de servir les fichiers requis d'un côté, et que la partie
+Android est capable de recevoir et de stocker le fichier reçu.
+
+* Pour le module Image, nous vérifions que les inputs et outputs sont bien ceux attendus pour
+quelques fichier tests dont on connait l'output attendue. 
+
+* Pour la partie Administrateur du serveur, on vérifie que toutes les fonctionnalités suivantes
+sont présentes : 
+
+** Connexion à sa partie de la base de données avec le bon login
+** Upload d'un plan sur le serveur
+** Récupération et modification d'un plan déjà uploadé
+
+* Pour la partie Android, on vérifie les points suivants :
+
+** L'application peut scanner un QR Code
+** L'application peut afficher un plan stocké en mémoire
+** l'application peut demander un plan au serveur
+** L'application peut, étant donné un départ et une arrivée, calculer, et afficher le 
+chemin optimal.

@@ -1,0 +1,2 @@
+=== Le site est en ligne sur www.telecom-mapitech.fr
+=== Les données contenues dans la base de données sont accessibles dans le fichier pactdb.sql

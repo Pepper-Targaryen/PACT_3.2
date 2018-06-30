@@ -1,0 +1,18 @@
+=== Module Traitement d'images
+
+==== Descriptions
+
+Ce module a pour but de convertir des plans en graphes sur lesquels il sera ensuite possible d'appliquer l'algorithme de Dijkstra.
+
+==== Avancement
+
+Nous pouvons traiter des plans très simples. Nous arrivons à en extraire un squelette, à supprimer les composantes non connexes, et à les convertir en graphes. Une interface utilisateur a été implémentée pour rentrer les noms des salles et préciser les positions des escaliers, mais elle n'est pas encore terminée.
+
+==== Bibliographie spécifique
+
+* [[Skeletonization]] Skeletonization: *Y. Chehadeh*, *D. Coquin*, *P. Bolon*,
+_A skeletonization algorithm using chamfer distance transformation adapted to rectangular grids_,
+http://ieeexplore.ieee.org/document/546738/?anchor=authors
+* [[Skeletonization]] Skeletonization: *Kálmán Palágyi*, _Skeletonization _,
+http://www.inf.u-szeged.hu/~palagyi/skel/skel.html
+

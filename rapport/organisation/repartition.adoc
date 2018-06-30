@@ -1,0 +1,29 @@
+=== Répartition des élèves par module
+
+
+
+[cols=",^,^,^,^,^",options="header",]
+|================================================================================================
+| Nom        | Traitement d'images et de graphes | Serveur | Développement Androïd | Module SES | Test & Intégration
+
+
+| Michel Roux|    X     |         |         |         |
+
+| Thomas Robert |         |         |      X   |         |
+
+| Julien Morel |         |         |         |     X    |
+
+| Jean-Claude Moissinac |         |    X     |         |        | X
+
+| Yixiao Fei     |    X     |         |         |     X    |         
+
+| Corentin Dumery    |    X     |         |         |   X      |        
+
+| Florent Monin     |        |   X      |         |    X     |         X
+
+| Fedi Kouki     |         |    X    |         |    X     |         X
+
+| Pierre Bernat    |        |         |     X    |     X    |       X  
+
+| Paul Reboullet    |         |         |   X      |     X    |      
+|================================================================================================

@@ -1,0 +1,7 @@
+=== Diagramme de séquence
+
+image:../images/diagacti1.png[diag]
+
+image:../images/diagacti2.png[diag]
+
+

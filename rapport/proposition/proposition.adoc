@@ -1,0 +1,49 @@
+=== Description de la proposition
+
+==== Motivations de base
+
+Les bâtiments de l'école sont si grands que tous
+les nouveaux étudiants prennent des mois pour apprendre à aller d'un endroit à
+un autre sans se perdre. Le cas des élèves passant le Concours Commun
+Mines-Ponts, ou des visiteurs éphémères est encore plus criant. +
+Pour des élèves qui passent un concours, le stress de l'épreuve est suffisamment
+important pour ne pas avoir à rajouter une angoisse quant à la possibilité
+de ne pas trouver sa salle. Jusqu'ici, la solution envisagée par l'école
+consistait à placer des étudiants connaissant déjà l'école pour guider les
+candidats jusqu'à leur salle d'examen.
+
+Le problème existe généralement dans les grandes entreprises, ou dans les
+espaces ouverts à un public qui n'a pas nécessairement le temps de s'adapter
+à la structure des bâtiments et la création d'une application qui guide les
+visiteurs est un besoin bien justifié.
+
+==== Problèmes constatés et résolutions
+
+Il est rapidement apparu qu'il n'était pas envisageable de géolocaliser
+par satellite du fait du manque de précision de GPS ou même Galileo. +
+Les experts nous ont également fait comprendre qu'il n'était pas raisonnable
+d'envisager une triangulation par balises bluetooth ou wifi (de type _iBeacon_)
+car leur manipulation était difficile à cause des interférences ou du croisement
+des informations.
+
+Le principe de balise à scanner sous forme de QR codes nous est alors apparu
+comme plus adapté. En répartissant ceux-ci au sein de l'établissement,
+l'utilisateur peut procéder par étapes. +
+Le problème qui survient est alors celui de la répartition des balises dans
+l'établissement. Comment disposer celles-ci pour qu'il apparaisse naturel
+à l'utilisateur de se diriger vers elles ? Doit-on imposer certains lieus
+qui doivent nécessairement contenir une balise ?
+
+Par ailleurs, il nous a fallu envisager comment adapter l'application à
+n'importe quel type de bâtiment. Nous avons pensé à utiliser des plans normalisés
+et à les traiter pour automatiser le positionnement de balises sous certaines
+contraintes.
+
+Du point de vue de l'utilisateur, il nous a fallu imaginer comment celui-ci
+récupérerait le plan de l'établissement sur son smartphone. +
+Tout simplement, lorsque celui-ci pénètre dans l'établissement et qu'il scanne
+son premier QR code, si le plan n'est pas encore présent dans sa mémoire, ou
+qu'il n'est pas à jour, celui-ci est automatiquement téléchargé depuis le serveur.
+
+Enfin, l'itinéraire est calculé par algorithme de _Dijkstra_ et s'affiche
+graphiquement sur le smartphone de l'utilisateur.
