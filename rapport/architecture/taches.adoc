@@ -1,0 +1,29 @@
+=== Tableau détaillé des tâches
+
+[cols=",,^",options="header",]
+|=================================================================================
+| Tâche | Description                                           | Intégré au PAN3
+| T1    | Traitement d'images                                   |
+| T1.1  | Conversion d'une photo de QR code en une localisation | X
+| T1.2  | Création d'un graphe à partir d'un pdf de plan        |
+| T2    | Serveur                                               | X
+| T2.1  | Authentification                                      | X
+| T2.2  | Insertion de plans par l'administrateur               | X
+| T2.3  | Stockage de plans                                     | X
+| T2.4  | Téléchargement de plans                               | X
+| T3    | Développement de l'application                        |
+| T3.1  | Choix d'emplacement des QR code                       |
+| T3.2  | Affichage d'un plan & d'un itinéraire                 | X
+| T3.3  | Génération d'un PDF contenant les QR codes            | X
+| T3.4  | Plus court chemin                                     | X
+| T4    | Test et intégration                                   |
+|=================================================================================
+
+Au PAN3, le prototype allégé permettra de démontrer la partie utilisateur
+complètement, c'est à dire depuis le scan d'une balise QR code jusqu'à l'affichage
+de l'itinéraire calculé, en prenant en compte les contraintes de l'utilisateur,
+c'est à dire les problèmes d'accesibilité pour les personnes en situation de
+handicap. La partie administrateur ne sera pas complètement fonctionnelle,
+puisqu'il faudra indiquer beaucoup d'informations manuellement sur le plan pour
+pouvoir le rentrer dans l'application. L'administrateur pourra cependant déjà
+accéder au plans de son bâtiment depuis le serveur.

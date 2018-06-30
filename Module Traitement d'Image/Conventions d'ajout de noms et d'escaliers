@@ -1,0 +1,25 @@
+Une UI permet au propriétaire du plan d'entrer les noms des salles ou les positions des escaliers. 
+Ces informations sont enregistrées dans un .txt temporaire qui sera ensuite lu par le serveur.
+
+Important: les coordonnées données ici ne correspondent PAS à des points du squelette et il faudra les PROJETER
+
+Conventions d'écriture: (vous pouvez les changer mais alors précisez le ici)
+
+Pour un ajout d'escalier :
+
+plan1Id/x1/y1/plan2Id/x2/y2    (\n)
+
+
+Pour un ajout de nom de salle : 
+
+nom/x1/x2    (\n)
+
+
+S'il y a un accident :
+
+acci/x1/x2/texte    (\n)
+
+
+S'il c'est non handicapé friendly :
+
+handi/x1/x2/texte    (\n)

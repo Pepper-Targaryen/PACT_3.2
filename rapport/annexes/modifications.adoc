@@ -1,0 +1,36 @@
+=== Modifications (PAN2+)
+
+==== Modifications de fond
+
+Tableau des modifications de fond apportées au projet avec validation
+des experts et encadrant informatique
+
+[cols=",,",options="header",]
+|===============================================
+| libellé / date | Description brève | Validé par :
+|     Format d'image/04 12 17           |       Après avoir considéré les formats pdf et svg, nous nous tournous finalement vers les tiff et png.            | Michel Roux
+|  Calcul de la matrice de Chanfrein/14 01 18              |           Matrice qui sera nécessaire à la squelettisation        | Michel Roux
+|   Squelettisation/15 02 18         |           Squelettisation des plans, extraction des points importants        | Michel Roux
+|   Amélioration de l'éfficacité        |           Réduire le temps d'exécution et améliorer l'éfficacité      | Michel Roux
+|   Interface utilisateur PC             |   Elle permet d'entrer les noms des salles ou les escaliers                | Michel Roux
+|                |                   |
+|===============================================
+
+==== Modifications du rapport
+
+Vous noterez dans cette section les modifications apportées au rapport
+depuis le PAN précédent. Si votre planification temporelle a été
+modifiée, vous laisserez l’ancienne planification dans cette annexe.
+
+===== Modifications du rapport au PAN2
+
+Chaque module a avancé, et fait part de ses progrès dans le rapport. Pour ce qui est du serveur et d'android, nous suivons les TP à notre rythme afin d'acquérir les connaissances nécessaires à l'aboutissement de notre projet.
+Le module traitement d'images, en revanche, s'est heurté à de grandes difficultés. La plupart des efforts et des recherches n'ont pas aboutis.
+
+===== Modifications du rapport au PAN3
+
+Complétion des différentes pages attendues pour le PAN3, comme l'avancement de chaque module. Tous ont bien progressé, de telle sorte qu'un début intégration est maintenant possible. Des sources sont ajoutées.
+
+===== Modifications du rapport au PAN4
+
+L'applet est faite. Elle permet de saisir les noms des salles et elle est intégrée au site.

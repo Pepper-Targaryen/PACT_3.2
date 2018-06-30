@@ -1,0 +1,41 @@
+=== Comptes Rendus de réunions
+
+==== Réunion du 20/11/2017
+
+* Présents:
+** Yixiao FEI
+** Florent MONIN
+** Pierre BERNAT
+** Paul REBOULLET
+** Fedi KOUKI
+** Corentin DUMERY
+* Sujets abordés
+** *Avancement PAN1* : Répartition informelle des tâches sur les livrables du PAN1.
+** *Git* : travail en commun et prise en main du dépot git
+
+
+
+==== Réunion du 12/03/2018
+
+* Présents:
+** Yixiao FEI
+** Florent MONIN
+** Pierre BERNAT
+** Paul REBOULLET
+** Fedi KOUKI
+** Corentin DUMERY
+* Sujets abordés
+** *Intégration* Mise en commun des différents modules et synchronisation
+** *Avancement PAN3* : Prévision des fonctionnalités qu'il reste à ajouter avant le PAN3
+** *Git* : Complétion du rapport
+
+==== Réunion du 09/05/2018
+
+* Présents:
+** Florent MONIN
+** Pierre BERNAT
+** Corentin DUMERY
+* Sujets abordés
+** *Tournage* Tournage de la vidéo
+** *Poster* : Poster mise à jour
+** *Youtube* : Vidéo uploaded

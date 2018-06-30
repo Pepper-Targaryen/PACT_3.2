@@ -1,0 +1,13 @@
+*_Note : Liste des références exploitées. Une référence complète
+donne titre, auteur(s), date, journal, revue, source de publication,
+titre de conférence, numéro, pages. Une webographie est aussi
+envisageable : titre, auteur, date, page web_*
+
+
+* [[Skeletonization]] Skeletonization: *Y. Chehadeh*, *D. Coquin*, *P. Bolon*,
+_A skeletonization algorithm using chamfer distance transformation adapted to rectangular grids_,
+http://ieeexplore.ieee.org/document/546738/?anchor=authors
+* [[Skeletonization]] Skeletonization: *Kálmán Palágyi*, _Skeletonization _,
+http://www.inf.u-szeged.hu/~palagyi/skel/skel.html
+
+

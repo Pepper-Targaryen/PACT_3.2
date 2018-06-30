@@ -1,0 +1,31 @@
+=== Description des interfaces
+
+De façon schématique, nous avons trois blocs:
+
+* Traitement de l'Image (TI) :
+** Calcul d'un itinéaire
+** Génération des balises
+* Interface Graphique Utilisateur (IGU) :
+** Accès à la  base de données
+** Réalisation de la navigation
+* Serveur :
+** Téléchargement de la base des données
+** Modification et création des plans
+
+==== Traitement de l'Image - Interface Graphique Utilisateur
+
+* Localisation: +
+L'utilisateur peut savoir où il se trouve en scannant simplement les QR codes distribués dans le bâtiment. IGU envoie les noms des salles à TI et TI donne ensuite la position précise. IGU affichera le résultat dans un plan graphique à la fin.
+* Transformation d'une image à un graphe: +
+Étant donnée une image (en .pdf), TI la transforme en une structure des données, un graphe avec des distances réelles comme des poids d'arrêtes.
+* Calcul: +
+Après avoir donné l'origine et la destination, TI donnera un itinéaire le plus court possible. Si nous donnons en plus des contraintes (accessibilité, zones en travaux), TI modifiera l'itinéaire originalement proposé en évitant des régions difficiles à passer.
+* Gestion des balises: +
+Aprés avoir géré le graphe, TI donnera un rendu visuel comportant le moins d'étapes possible pour calculer n'importe quel itinéaire dans le bâtiment, et finalement TI nous indique comment disposer ces QR codes. Nous pouvons aussi imposer des QR codes indispensables pour les lieux populaires (cantine, caféteria) si nous avons besoin.
+
+==== Serveur - Interface Graphique Utilisateur
+
+* Gestion des graphes: +
+IGU envoie des bons graphes et aussi des images correspondantes au serveur. C'est aussi possible pour un administrateur de renouveler des graphes et de faire des modification de temps en temps.
+* Accès à la base de données: +
+Les utilisateurs peuvent obtenir les itinéaires soit en ayant téléchargé la base des données soit en établissant une connexion directe avec le serveur.

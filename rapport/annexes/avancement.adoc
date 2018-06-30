@@ -1,0 +1,81 @@
+=== Suivis des modules (Après PAN1)
+
+Insérez ici votre biblio et vos avancées techniques par module (réunions
+experts, pseudo-code d’algorithmes, description détaillée de vos réalisations, etc.).
+
+=== Module du Traitement d'Image
+
+* Réunion avec Michelle Roux
+** Présentation et formulation du problème
+** Distance de Chamfrein
+** Algorithme de Skeletonization
+
+* Description détaillée
+** Notre objectif principal est d'initialiser une structure de graphe à partir
+d'une image de plan, de sorte à ce que l'administrateur n'ait à faire le 
+moins possible. Nous cherchons donc à obtenir un squellette du plan. Le graphe 
+pertinent sera basé simplement sur le squellette obtenu. Les pixels de l'image 
+seront associés à un noeud du graphe.
+** Un squellette sera implicitement généré une fois une image de plan est 
+enregistrée. Puis, il suffit d'indiquer les noms des endroits (des salles, des 
+amphis, etc.) en cliquant sur le plan affiché sur l'écran.
+** Une projection minimale sera entrainée pour lier des noeuds du graphe avec le 
+plan. Après ces processus d'initialisation, le graphe sera prêt à manipuler le 
+calcul classique du plus court chemin.
+
+* Pseudo-code
+** Read "plan.tiff"
+** Transform to binairy image
+** Generate the skeleton of the image
+*** Calculate the matrix of champer distance
+*** Thining: minimize the structure but maintain the connectivity
+** UI for initializing names of different rooms
+** Ready for the Algorithm of Dijkstra
+
+* Bibliographie
+** [[Skeletonization]] Skeletonization: *Y. Chehadeh*, *D. Coquin*, *P. Bolon*,
+_A skeletonization algorithm using chamfer distance transformation adapted to rectangular grids_,
+http://ieeexplore.ieee.org/document/546738/?anchor=authors
+** [[Skeletonization]] Skeletonization: *Kálmán Palágyi*, _Skeletonization _,
+http://www.inf.u-szeged.hu/~palagyi/skel/skel.html
+
+
+=== Module serveur
+
+* Création du site web
+** Programmation du processus d'authentification
+** Création de la base de données, et utilisation de requêtes SQL pour l'authentification et pour les bâtiments
+
+* Description détaillée
+** Site web
+*** Le but du site web est de nous permettre d'avoir une machine unique contenant tous les plans, afin de les envoyer aux clients android ultérieurement. Deux tables de données sont mises en place
+ : une pour les utilisateurs (pseudo, mot de passe chiffré, quelques informations supplémentaires), et une pour les bâtiments (propriétaire, dernière version, nom du bâtiment).
+
+* Intégration dans la partie Android
+
+** Partie distante : Le serveur sert les fichiers quand on accède à l'url : "http://<ip_du_serveur>/pact/TPT/étage1.pdf" par exemple
+sert le fichier étage1.pdf. Le fichiers sont organisés dans des dossiers selon le batiment auquels ils correspondent :  ici, étage1 est un plan
+du batiment TPT.
+** Partie Android : On accéde au serveur grâce à un `HttpURLConnection`, afin de demander au serveur le fichier adéquat. Le fichier est
+ensuite stocké dans le téléphone, pour être accessible à l'application, lorsqu'il devra être affiché à l'écran.
+
+=== Module Android
+* Réunion avec Thomas Robert :
+** Dégager les classes nécessaires
+** Réfléchir à l'architecture du programme
+
+* Description détaillée :
+** Les QR codes peuvent être lus
+** la connection avec le serveur est établie et permet de récupérer les fichiers (grâce au concours du module Serveur)
+** recherche du plus court chemin avec un Dijkstra
+*** Classes pour le graphe (avec une fonction d'instanciation), les noeuds (avec une fonction d'initialisation) et les successeurs des noeuds.
+*** Lecture de fichiers sur le stockage externe
+** le trajet s’affiche sur la carte
+
+* Pseudo-code
+** Scanner un QR code
+** Récupérer les fichiers d'image et de skelette (txt)
+** Initialiser le graphe
+** Appliquer l'algorithme de Dijkstra
+** Transformer la carte pour y afficher le chemin
+** Afficher le tout avec une PhotoView

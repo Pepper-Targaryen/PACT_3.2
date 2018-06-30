@@ -1,0 +1,29 @@
+=== Module Test d'Integration
+
+==== Descriptions
+
+* Tests sur le site web, réalisés par Fedi KOUKI
+** Comme j'ai programé le site sur ma machine en utilisant WAMP, j'ai pu modifié les fichiers et voir l'effet de ces modifications directement.
+Une première étape nécessaire pour tester est de supprimer, pendant les tests, l'instruction error_reporting(0); qui est censée ne pas afficher les erreurs aux visiteurs du site. Une deuxième étape est de rajouter ces instructions lors de la connexion à la base de données:
+    $db->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
+    $db->setAttribute(PDO::ATTR_EMULATE_PREPARES, false);
+afin d'expliciter les erreurs liés à la base de données.
+
+** Une étape fondamentale, pour moi, lors des tests est d'utiliser des echo; afin de voir si certains bouts de code sont atteints. Cela m'a aidé énormément à débugger les erreurs sur les conditions, ou sur la transmission de variables d'une page à une autre ($_POST et $_GET).
+
+** En ce qui concerne l'intégration, ça se fait principalement avec le traitement d'images et la partie Android.
+*** Traitement d'images
+
+**** Cette partie n'est pas envisagée dans le PAN3. On travaille pour le moment avec un seul plan, déjà prêt.
+
+*** Android
+
+**** Tests entre le serveur et la partie Android : Pour vérifier que la partie serveur fonctionne
+j'ai un fichier test auquel il me suffit d'accéder en entrant l'url de mon serveur et de vérifier que le fichier est bien servi.
+Quant à la partie Android, j'accède à l'URL et copie le fichier dans un fichier accesible, sur une carte SD de mon téléphone,
+pour vérifier que le fichier est bien téléchargé. Ainsi, je peux vérifier si chacun des bouts du serveur fonctionne.
+
+==== Avancement
+
+
+==== Bibliographie spécifique

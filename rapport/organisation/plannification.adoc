@@ -1,0 +1,3 @@
+=== Diagramme de planification temporel des tâches
+
+image:../images/Taches-1.png[Diagramme temporel des tâches]
